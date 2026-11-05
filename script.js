@@ -307,7 +307,8 @@ const projectConcepts = {
     features: ['At-a-glance metrics', 'Charts and activity views', 'Role-based screens', 'Search and data tables', 'API and database integration'],
     tools: ['React', 'Node.js', 'REST APIs', 'PostgreSQL or MongoDB'],
     roadmap: [['Map workflows','Identify users, data sources, and the decisions the dashboard should support.'],['Prototype','Agree on screens, permissions, and navigation.'],['Develop','Build the interface, APIs, and data handling.'],['Validate','Test access, data accuracy, responsiveness, and deployment.']],
-    service: 'Web application'
+    service: 'Web application',
+    liveDemo: 'https://zorentivatech.github.io/zorentiva-businesshub-demo/'
   },
   campus: {
     eyebrow: 'PORTAL CONCEPT · EDUCATION',
