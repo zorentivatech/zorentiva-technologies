@@ -451,3 +451,25 @@ body:before,body:after,.hero:before,.hero:after,.dashboard-card,.code-card,.tag-
   .founders-section .founder-grid{max-width:100%}
   .founders-section .founder-note-card{padding:20px}
 }
+
+/* Highlight View Demo Project */
+.demo-project-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+    padding: 12px 20px;
+    border-radius: 30px;
+    background: linear-gradient(110deg, #8daaff, #48d9e8);
+    color: #071323 !important;
+    font-weight: 800;
+    font-size: 15px;
+    text-decoration: none !important;
+    box-shadow: 0 5px 20px rgba(72, 217, 232, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.demo-project-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(72, 217, 232, 0.4);
+}
