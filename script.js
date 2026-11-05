@@ -297,7 +297,8 @@ const projectConcepts = {
     features: ['Menu and signature items', 'Mobile-friendly layout', 'Location and opening hours', 'Reservation or enquiry path', 'Brand story and gallery'],
     tools: ['HTML & CSS', 'JavaScript', 'Responsive UI', 'Optional CMS'],
     roadmap: [['Discover','Understand the brand, audience, menu, and key customer actions.'],['Design','Plan the page structure and visual direction.'],['Build','Create responsive pages and test across screen sizes.'],['Launch','Connect the domain, check forms, and hand over the site.']],
-    service: 'Website development'
+    service: 'Website development',
+    liveDemo: 'https://zorentivatech.github.io/restaurant-website-demo/'
   },
   dashboard: {
     eyebrow: 'APPLICATION CONCEPT · BUSINESS',
