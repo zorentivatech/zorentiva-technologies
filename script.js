@@ -345,7 +345,8 @@ if (projectDialog) {
     const roadmap = document.getElementById('projectDialogRoadmap');
     roadmap.replaceChildren(...item.roadmap.map(([title, detail]) => { const li = document.createElement('li'); const b = document.createElement('b'); b.textContent = title; const span = document.createElement('span'); span.textContent = detail; li.append(b, span); return li; }));
     projectCta.dataset.serviceValue = item.service;
-    projectCta.href = '#contact';
+    projectCta.href = item.liveDemo || '#contact';
+    projectCta.target = item.liveDemo ? '_blank' : '_self';
     if (projectDialog.showModal) projectDialog.showModal(); else projectDialog.setAttribute('open', '');
   };
   portfolioCards.forEach((card) => {
